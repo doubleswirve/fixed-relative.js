@@ -1,0 +1,156 @@
+html,
+body {
+    background: url(img/retina-wood.png);
+    font-family: Tiempos, Georgia, serif;
+}
+
+#main {
+    padding-top: 65px;
+}
+
+.posts {
+    position: relative;
+}
+
+.post {
+    position: relative;
+    line-height: 33px;
+    padding: 20px 150px 60px 40px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background: #f5f5f5;
+}
+
+.post > h1 {
+    margin: 40px 0 15px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.post > span {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.post > p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.sidebar {
+    margin: 20px 0 0;
+    padding: 20px;
+    background: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    -webkit-transform: translateZ(0);
+}
+.sticky .wrapper {
+    position: relative;
+    background: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.main-nav {
+    list-style-type: none;
+    font-size: 0;
+}
+
+.main-nav > li {
+    display: inline-block;
+    border-right: 1px solid #e1e1e1;
+}
+
+.main-nav > li:first-child {
+    border-left: 1px solid #fff;
+}
+
+.main-nav > li:first-child > a {
+    border-left: 1px solid #e1e1e1;
+}
+
+.main-nav > li > a {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    border-right: 1px solid #fff;
+    
+    background-color: #f5f5f5; 
+
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.main-nav > li > a:hover {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+
+.share-wrapper {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 97px;
+}
+.share-wrapper-bottom {
+    top: auto;
+    bottom: 20px;
+}
+
+.share-wrapper-inner {
+    text-align: center;
+    background: #498EA8;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    overflow: hidden;
+    height: 52px;
+    
+    transition: height 0.3s ease-out;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.share-wrapper-inner-fixed {
+    position: fixed;
+    top: 78px;
+}
+
+.share-wrapper-inner:hover {
+    height: 183px;
+}
+
+.share-wrapper span {
+    cursor: pointer;
+}
+
+.share > a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.neverender-token {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 400px;
+}
+
+.ad {
+    background: #8FCF8F;
+}
