@@ -4,8 +4,8 @@ Fixed Relative
 Goal: a simple, efficient jQuery plugin to simulate having a child element "fixed" relative to an ancestor
 
 
-[Example Usage](#example-usage)
--------------------------------
+Example Usage
+-------------
 
 Using the following markup:
 
@@ -75,8 +75,8 @@ Once the *top* of the `article.post` element has gotten close enough to the top 
 Once the *bottom* of the `article.post` element has gotten close enough to the top of the browser window, the `div.fixed-relative` element will lose the `fixed-relative-fixed` class and the `div.fixed-relative-wrapper` element will obtain the `fixed-relative-wrapper-bottom` class, forcing the element to stick to the bottom of `article.post` element.
 
 
-[Options](#options)
--------------------
+Options
+-------
 
 ### `fixedEl`
 
@@ -115,8 +115,8 @@ Trigger changes when the relatively positioned element's *top* is this distance 
 Trigger changes when the relatively positioned element's *bottom* is this distance from the top of the window
 
 
-[Configuration](#config)
--------------------------------
+Configuration
+-------------
 
 ### `$.fixedRelative.setTimer(/*{Number}*/ n)`
 
@@ -127,14 +127,14 @@ The timeout value is by default set to `0`. If you pass in a number greater than
 Unbinds the scroll event. The functionality is removed.
 
 
-[Live Example](#live-example)
------------------------------
+Live Example
+------------
 
 You can see the PHP infinite scroll example [here](http://scrolly-poly.eu1.frbit.net/ "Live Example"). The app might be frozen as it's on a free tier at *[fortrabbit](http://fortrabbit.com/ "fortrabbit.com")*. Just bug me if it is.
 
 
-[Todo](#todo)
--------------
+Todo
+----
 
 * Clean up all the applied classes when calling the static `off` method.
 * Browser test.
