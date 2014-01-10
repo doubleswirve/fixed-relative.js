@@ -133,6 +133,26 @@ Live Example
 You can see the PHP infinite scroll example [here](http://scrolly-poly.eu1.frbit.net/ "Live Example"). The app might be frozen as it's on a free tier at *[fortrabbit](http://fortrabbit.com/ "fortrabbit.com")*. Just bug me if it is.
 
 
+Browser Support
+---------------
+
+Desktop OS X:
+
+* Chrome 31
+* Firefox 26
+* Safari 7
+
+Windows 7:
+
+* Chrome 31
+* Firefox 25
+* IE 9
+
+Windows XP:
+
+* IE 8
+
+
 Todo
 ----
 
